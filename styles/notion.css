@@ -249,3 +249,7 @@ pre[class*='language-'] {
 .nobelium-toggle-content > :last-child {
   @apply mb-0;
 }
+
+code[class*=language-],pre[class*=language-] {
+  text-shadow: 0 0 black !important;
+}
